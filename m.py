@@ -156,7 +156,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "CHALA JAA BSDK SAAB FREE ME CHAHIYE ESE BANANE ME PURA RAAT LAGA HAI @its_sarvesh08 🤡🤡."
+        response = "CHALA JAA BSDK SAAB FREE ME CHAHIYE ESE BANANE ME PURA RAAT LAGA HAI @its_sarvesh08🤡🤡."
 
     bot.reply_to(message, response)
 
@@ -287,7 +287,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, SEX WITH BGMI.👿👿\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- @vipvipvip5570 MYE TO CHUTIYA HU FREE ME DE RAHA HU"
+    response = f"{username}, SEX WITH BGMI.👿👿\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- @its_sarvesh08 MYE TO CHUTIYA HU FREE ME DE RAHA HU"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -325,7 +325,7 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Port: {time}"
         else:
-            response = "Devlope by ​🇸​🇦​🇷​🇻​🇪​🇸​🇭 😈 Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
+            response = " developed by ​SARVESH 😈 Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
         response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command.                                                                          DM TO BUY ACCESS:- @vipvipvip5570")
 
