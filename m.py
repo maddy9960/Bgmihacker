@@ -156,7 +156,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "CHALA JAA BSDK SAAB FREE ME CHAHIYE ESE BANANE ME PURA RAAT LAGA HAI @vipvipvip5570 🤡🤡."
+        response = "CHALA JAA BSDK SAAB FREE ME CHAHIYE ESE BANANE ME PURA RAAT LAGA HAI @its_sarvesh08 🤡🤡."
 
     bot.reply_to(message, response)
 
@@ -193,7 +193,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>😘'''
     else:
-        response = "SALE KITNA DAYS FREE ME USED KAREGA AAB TO BUY KAR RS 200 ME WEEK  BUT @vipvipvip5570 😵‍💫."
+        response = "SALE KITNA DAYS FREE ME USED KAREGA AAB TO BUY KAR RS 200 ME WEEK  BUT @its_sarvesh08 😵‍💫."
 
     bot.reply_to(message, response)
 
@@ -213,7 +213,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "KOI BAAT NAHI BHAI BUY KAR LE YR @vipvipvip5570 ❤."
+        response = "KOI BAAT NAHI BHAI BUY KAR LE YR @its_sarvesh08 ❤."
     bot.reply_to(message, response)
 
 
@@ -233,7 +233,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "KOI BAAT NAHI BHAI BUY KAR LE YR @vipvipvip5570 ❤."
+        response = "KOI BAAT NAHI BHAI BUY KAR LE YR @its_sarvesh08 ❤."
     bot.reply_to(message, response)
  
 
@@ -258,7 +258,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "KOI BAAT NAHI BHAI BUY KAR LE YR @vipvipvip5570 ❤."
+        response = "KOI BAAT NAHI BHAI BUY KAR LE YR @its_sarvesh08 ❤."
     bot.reply_to(message, response)
 
 
@@ -277,7 +277,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "KOI BAAT NAHI BHAI BUY KAR LE YR @vipvipvip5570 ❤."
+        response = "KOI BAAT NAHI BHAI BUY KAR LE YR @its_sarvesh08 ❤."
         bot.reply_to(message, response)
 
 
@@ -325,7 +325,7 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Port: {time}"
         else:
-            response = "Devlope by Abhi singh 👹 Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
+            response = "Devlope by ​🇸​🇦​🇷​🇻​🇪​🇸​🇭 😈 Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
         response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command.                                                                          DM TO BUY ACCESS:- @vipvipvip5570")
 
@@ -366,8 +366,8 @@ def show_help(message):
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
 
-Buy From :- @vipvipvip5570
-Official Channel :- https://t.me/aaaahacker
+Buy From :- @its_sarvesh08
+Official Channel :- https://t.me/+6fOgX5INnjY5ZTZl
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -382,7 +382,7 @@ Official Channel :- https://t.me/aaaahacker
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f'''👑 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ Abhi singh ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
+    response = f'''👑 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ​​SARVESH ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 👿Try To Run This Command : /help 
 💀BUY :- @vipvipvip5570'''
     bot.reply_to(message, response)
